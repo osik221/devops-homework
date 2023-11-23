@@ -10,9 +10,9 @@ public class Appl {
 
     public static void main(String[] args) {
         Calc calc = new Calc();
-        System.out.println("1 + 2 = " + calc.add(1, 2));
-        System.out.println("1.5 + 2.5 = " + calc.add(1.5, 2.5));
-        System.out.println("4 - 2 = " + calc.sub(4, 2));
-        System.out.println("2.5 - 1.5 = " + calc.sub(2.5, 1.5));
+        println("1 + 2 = " + calc.add(1, 2));
+        println("1.5 + 2.5 = " + calc.add(1.5, 2.5));
+        println("4 - 2 = " + calc.sub(4, 2));
+        println("2.5 - 1.5 = " + calc.sub(2.5, 1.5));
     }
 }
